@@ -2,7 +2,10 @@
 
 ## Overview
 A scalable enterprise data warehouse for banking, integrating raw data from multiple systems and delivering trusted insights through a layered architecture: 
-<img width="1428" height="197" alt="image" src="https://github.com/user-attachments/assets/7a151865-9b14-4dee-af61-610cf1439ac1" />
+
+## Conceptual Data Model - High Level
+<img width="1403" height="180" alt="image" src="https://github.com/user-attachments/assets/b1a9eed7-9b36-4bb5-ae8d-dfddb7849538" />
+
 
 ## Problem Statement
 Banks handle data across branches, customers, employees, loans, accounts, credit cards, payments, and transactions — often arriving in inconsistent formats from multiple sources. This project centralizes and standardizes that data into a single source of truth, preserving history while enabling fast, department-focused insights and KPI tracking.
