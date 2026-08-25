@@ -1,0 +1,37 @@
+# Enterprise Data Warehouse (Banking Domain)
+
+## Overview
+A scalable enterprise data warehouse for banking, integrating raw data from multiple systems and delivering trusted insights through a layered architecture: 
+<img width="1428" height="197" alt="image" src="https://github.com/user-attachments/assets/7a151865-9b14-4dee-af61-610cf1439ac1" />
+
+## Problem Statement
+Banks handle data across branches, customers, employees, loans, accounts, credit cards, payments, and transactions — often arriving in inconsistent formats from multiple sources. This project centralizes and standardizes that data into a single source of truth, preserving history while enabling fast, department-focused insights and KPI tracking.
+
+## Architecture
+| Layer          | Purpose                                                |
+|----------------|------------------------------------------------------- |
+| **Staging**    | Raw data ingestion from source systems                 |
+| **ODS**        | Cleansed, de-duplicated, standardized data             |
+| **DWH**        | Business rules applied; conformed dimensions and facts |
+| **Data Marts** | Department-focused facts and KPI aggregates            |
+| **Reporting**  | Dashboards and reports for end users                   |
+
+## Key Domains
+Branches, Customers, Employees, Loans, Accounts, Credit Cards, Payments, Transactions
+
+## Key Use Cases
+- Branch performance analysis
+- Fraud detection
+- Customer profiling
+
+## Consumers
+Executives, auditors, clients, managers, and outbound/third-party systems
+
+## Key Features
+- ✅ Single source of truth with historical data
+- ✅ Faster queries via single fact tables per mart
+- ✅ KPI tracking through aggregate tables
+- ✅ Scalable, layered design
+
+## Project Status
+🚧 In progress — tech stack and setup details to be added.
