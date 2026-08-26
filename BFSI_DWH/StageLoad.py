@@ -4,9 +4,9 @@ from sqlalchemy import create_engine
 
 # ─── 2. Connection Credentials ──────────────────────────────────────────────
 #         Change these to match your MySQL server details
-username  = 'inceptez'
-password  = "Inceptez%40123"  # %40 is URL-encoded @
-host      = '34.174.250.128'
+username  = 'USERXXX'
+password  = "USERXXX%40123"  # %40 is URL-encoded @
+host      = '34.xxx.xxx.220'
 db        = 'stgdb_Nithish'
 
 # ─── 3. Create DB Engine (pymysql driver) ──────────────────────────────────
